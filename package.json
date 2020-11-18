@@ -1,68 +1,68 @@
 {
-	"name": "spotify-color-theme",
-	"displayName": "Spotify Color Theme",
-	"description": "Theme for vscode inspired by the colors of Spotify",
-	"version": "1.2.9",
-	"license": "MIT",
-	"scripts": {
-		"build": "node ./scripts/build.js",
-		"lint": "node ./scripts/lint.js",
-		"package": "vsce package -o ./bin/dracula.vsix",
-		"vscode:prepublish": "npm run build",
-		"vsce-publish": "vsce publish"
-	},
-	"engines": {
-		"vscode": "^1.21.0"
-	},
-	"bugs": {
-		"url": "https://github.com/dracula/visual-studio-code/issues"
-	},
-	"categories": [
-		"Themes"
-	],
-	"maintainers": [
-		"Gustavo Pereira"
-	],
-	"keywords": [
-		"spotify",
-		"theme",
-		"dark",
-		"Spotify",
-		"spotify-theme"
-	],
-	"icon": "icon.png",
-	"galleryBanner": {
-		"color": "#1DB954",
-		"theme": "dark"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/oguhpereira/vscode-spotify-theme"
-	},
-	"contributes": {
-		"themes": [
-			{
-				"label": "Spotify",
-				"uiTheme": "vs-dark",
-				"path": "./theme/spotify.json"
-			},
-			{
-				"label": "Spotify Soft",
-				"uiTheme": "vs-dark",
-				"path": "./theme/spotify-soft.json"
-			}
-		]
-	},
-	"publisher": "oguhpereira",
-	"devDependencies": {
-		"js-yaml": "^3.13.1",
-		"prettier": "^1.19.1",
-		"tinycolor2": "^1.4.1",
-		"vsce": "^1.71.0"
-	},
-	"__metadata": {
-		"id": "2fe23fc1-a83e-4ed4-82d6-d1529fdc9d9b",
-		"publisherId": "a1336fdd-52cd-4eb7-9dae-659208a5c983",
-		"publisherDisplayName": "Gustavo Pereira"
-	}
+  "name": "spotify-color-theme",
+  "displayName": "Spotify Color Theme",
+  "description": "Theme for vscode inspired by the colors of Spotify",
+  "version": "1.2.10",
+  "license": "MIT",
+  "scripts": {
+    "build": "node ./scripts/build.js",
+    "lint": "node ./scripts/lint.js",
+    "package": "vsce package -o ./bin/dracula.vsix",
+    "vscode:prepublish": "npm run build",
+    "vsce-publish": "vsce publish"
+  },
+  "engines": {
+    "vscode": "^1.21.0"
+  },
+  "bugs": {
+    "url": "https://github.com/dracula/visual-studio-code/issues"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "maintainers": [
+    "Gustavo Pereira"
+  ],
+  "keywords": [
+    "spotify",
+    "theme",
+    "dark",
+    "Spotify",
+    "spotify-theme"
+  ],
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#191414",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oguhpereira/vscode-spotify-theme"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Spotify",
+        "uiTheme": "vs-dark",
+        "path": "./theme/spotify.json"
+      },
+      {
+        "label": "Spotify Soft",
+        "uiTheme": "vs-dark",
+        "path": "./theme/spotify-soft.json"
+      }
+    ]
+  },
+  "publisher": "oguhpereira",
+  "devDependencies": {
+    "js-yaml": "^3.13.1",
+    "prettier": "^1.19.1",
+    "tinycolor2": "^1.4.1",
+    "vsce": "^1.71.0"
+  },
+  "__metadata": {
+    "id": "2fe23fc1-a83e-4ed4-82d6-d1529fdc9d9b",
+    "publisherId": "a1336fdd-52cd-4eb7-9dae-659208a5c983",
+    "publisherDisplayName": "Gustavo Pereira"
+  }
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Language="en-US" Id="spotify-color-theme" Version="1.2.9" Publisher="oguhpereira"/>
+    <Identity Language="en-US" Id="spotify-color-theme" Version="1.2.10" Publisher="oguhpereira"/>
     <DisplayName>Spotify Color Theme</DisplayName>
     <Description xml:space="preserve">Theme for vscode inspired by the colors of Spotify</Description>
     <Tags>spotify,theme,dark,Spotify,spotify-theme,color-theme</Tags>
@@ -12,6 +12,7 @@
       <Property Id="Microsoft.VisualStudio.Code.Engine" Value="^1.21.0" />
       <Property Id="Microsoft.VisualStudio.Code.ExtensionDependencies" Value="" />
       <Property Id="Microsoft.VisualStudio.Code.ExtensionPack" Value="" />
+      <Property Id="Microsoft.VisualStudio.Code.ExtensionKind" Value="ui,workspace,web" />
       <Property Id="Microsoft.VisualStudio.Code.LocalizedLanguages" Value="" />
       
         <Property Id="Microsoft.VisualStudio.Services.Links.Source" Value="https://github.com/oguhpereira/vscode-spotify-theme" />
@@ -22,9 +23,10 @@
       
       <Property Id="Microsoft.VisualStudio.Services.Links.Support" Value="https://github.com/dracula/visual-studio-code/issues" />
       
-      <Property Id="Microsoft.VisualStudio.Services.Branding.Color" Value="#1DB954" />
+      <Property Id="Microsoft.VisualStudio.Services.Branding.Color" Value="#191414" />
       <Property Id="Microsoft.VisualStudio.Services.Branding.Theme" Value="dark" />
       <Property Id="Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown" Value="true" />
+      
       
       
     </Properties>
